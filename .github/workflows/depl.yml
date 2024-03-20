@@ -32,7 +32,7 @@
 #           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
   
 
-name: Building and Pushing Docker image to ECR
+name: Building and Pushing Docker image to ECRs
 on:
  push:
   branches:
